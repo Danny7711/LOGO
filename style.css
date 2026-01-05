@@ -72,3 +72,10 @@ body {
     padding: 10px 14px;
     border-radius: 10px;
 }
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
