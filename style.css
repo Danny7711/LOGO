@@ -19,4 +19,8 @@ body {
     align-items: center;
     gap: 32px;
  }
- 
+ .logo {
+    display: flex;
+    align-items: center;
+    
+ }
