@@ -101,3 +101,13 @@ body {
     line-height: 20px;
     color:#242424 ;
  }
+ .button-rounded {
+    background: color #4a3aff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 18px 24px;
+    color: #fff;
+    border: none;
+    border-radius: 76px;
+ }
