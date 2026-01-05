@@ -71,6 +71,7 @@ body {
     border: 1px solid #EEF0F3;
     padding: 10px 14px;
     border-radius: 10px;
+    gap: 6px;
 }
 .search-box input {
     border: none;
