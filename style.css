@@ -37,3 +37,17 @@ body {
     color: #242424;
 
  }
+ .nav a:active{
+    color: #5856d6;
+ }
+.buttons {
+    display: flex;
+    gap: 8px;
+
+}
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    
+}
