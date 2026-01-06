@@ -1,113 +1,126 @@
-body {
-    font-family: sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    box-sizing: border-box;
 }
- header{
-    background-color: #fff;
-    margin-bottom: 22px;
-    padding: 20px 40px;
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+}
+
+/* COMMON */
+.header {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 16px 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1.5px solid #EEF0F3;
- }
-
- .header-block {
-    display: flex;
-    align-items: center;
-    gap: 32px;
- }
- .logo {
-    display: flex;
-    align-items: center;
-
- }
- .nav {
-    display: flex;
-    align-items: center;
-    gap: 48px;
- }
- .nav a {
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    color: #242424;
-
- }
- .nav a:active{
-    color: #5856d6;
- }
-.buttons {
-    display: flex;
-    gap: 8px;
-
+    border-radius: 14px;
 }
-.btn {
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+
+.header nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #111;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
+}
 
+.header nav a.active {
+    color: #6366f1;
 }
-.btn-secondary {
-    background-color: #f0f0f0 ;
-    color: #242424;
 
+/* HEADER 1 */
+.header-1 {
+    background: #fff;
 }
-.btn-primary {
-    background-color: #5C53E9;
-    color: #ffffff
 
+.search input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
-.search-box {
-    display: flex;
-    align-content: center;
-    border: 1px solid #EEF0F3;
-    padding: 10px 14px;
-    border-radius: 10px;
-    gap: 6px;
-}
-.search-box input {
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 8px;
     border: none;
-    outline: none;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
+    cursor: pointer;
 }
-.header2{
-    background-color: #fff;
-    margin-bottom: 22px;
-    padding: 32px 110px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1.5px solid #EEF0F3;
- }
- .nav2 {
-    display: flex;
-    align-items: center;
-    gap: 32px;
- }
- .nav2 a{
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    color:#242424 ;
- }
- .button-rounded {
-    background-color: #4a3aff;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
-    padding: 18px 24px;
+
+.btn.dark {
+    background: #000;
     color: #fff;
+}
+
+/* HEADER 2 */
+.header-2 {
+    background: #fff;
+}
+
+.icon-btn {
     border: none;
-    border-radius: 76px;
- }
+    background: #f1f5f9;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn.purple {
+    background: #6366f1;
+    color: #fff;
+}
+
+/* HEADER 3 */
+.header-3 {
+    background: #fff;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.square {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(45deg, #f97316, #22c55e);
+}
+
+/* HEADER 4 */
+.header-4 {
+    background: linear-gradient(90deg, #0f172a, #020617);
+}
+
+.header-4 nav a,
+.header-4 span {
+    color: #e5e7eb;
+}
+
+/* HEADER 5 */
+.header-5 {
+    background: linear-gradient(90deg, #0f172a, #020617);
+}
+
+.header-5 nav a,
+.header-5 span {
+    color: #e5e7eb;
+}
+
+.search.dark {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #020617;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.search.dark input {
+    background: transparent;
+    border: none;
+    color: #e5e7eb;
+    outline: none;
+}
