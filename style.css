@@ -1,16 +1,7 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     background: #f3f4f6;
 }
-
-/* ===== COMMON HEADER ===== */
 .header {
     max-width: 1200px;
     margin: 30px auto;
@@ -23,7 +14,6 @@ body {
     border-radius: 14px;
 }
 
-/* ===== NAV ===== */
 .header nav {
     display: flex;
     align-items: center;
