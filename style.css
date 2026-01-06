@@ -1,3 +1,4 @@
+/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +10,23 @@ body {
     background: #f3f4f6;
 }
 
-/* COMMON */
+/* ===== COMMON HEADER ===== */
 .header {
     max-width: 1200px;
     margin: 30px auto;
     padding: 16px 28px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     border-radius: 14px;
+}
+
+/* ===== NAV ===== */
+.header nav {
+    display: flex;
+    align-items: center;
 }
 
 .header nav a {
@@ -31,22 +40,13 @@ body {
     color: #6366f1;
 }
 
-/* HEADER 1 */
-.header-1 {
-    background: #fff;
-}
-
-.search input {
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-}
-
+/* ===== BUTTONS ===== */
 .btn {
     padding: 8px 14px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .btn.dark {
@@ -54,42 +54,85 @@ body {
     color: #fff;
 }
 
-/* HEADER 2 */
-.header-2 {
-    background: #fff;
+.btn.purple {
+    background: #6366f1;
+    color: #fff;
 }
 
+/* ===== ICON BUTTON ===== */
 .icon-btn {
     border: none;
     background: #f1f5f9;
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn.purple {
-    background: #6366f1;
-    color: #fff;
+.icon-btn img {
+    width: 18px;
+    opacity: 0.7;
 }
 
-/* HEADER 3 */
-.header-3 {
-    background: #fff;
+/* ===== LOGO ===== */
+.logo-img {
+    height: 32px;
 }
 
+.icon-logo {
+    width: 28px;
+}
+
+/* ===== SEARCH ===== */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+/* ===== LOGO BOX ===== */
 .logo-box {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.square {
-    width: 32px;
-    height: 32px;
-    background: linear-gradient(45deg, #f97316, #22c55e);
+.logo-box span {
+    font-size: 12px;
+    line-height: 1.1;
 }
 
-/* HEADER 4 */
+/* ===== HEADER 1 ===== */
+.header-1 {
+    background: #ffffff;
+}
+
+/* ===== HEADER 2 ===== */
+.header-2 {
+    background: #ffffff;
+}
+
+.header-2 .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ===== HEADER 3 ===== */
+.header-3 {
+    background: #ffffff;
+}
+
+/* ===== HEADER 4 (DARK) ===== */
 .header-4 {
     background: linear-gradient(90deg, #0f172a, #020617);
 }
@@ -99,7 +142,7 @@ body {
     color: #e5e7eb;
 }
 
-/* HEADER 5 */
+/* ===== HEADER 5 (DARK + SEARCH) ===== */
 .header-5 {
     background: linear-gradient(90deg, #0f172a, #020617);
 }
@@ -109,13 +152,13 @@ body {
     color: #e5e7eb;
 }
 
+/* DARK SEARCH */
 .search.dark {
-    display: flex;
-    align-items: center;
     gap: 10px;
     background: #020617;
     padding: 8px 12px;
     border-radius: 10px;
+    border: 1px solid #1e293b;
 }
 
 .search.dark input {
@@ -123,4 +166,9 @@ body {
     border: none;
     color: #e5e7eb;
     outline: none;
+}
+
+.search.dark img {
+    width: 18px;
+    opacity: 0.6;
 }
