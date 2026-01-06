@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
+    
 }
 
 
@@ -115,17 +115,20 @@ body {
 /* ===== HEADER 3 ===== */
 .header-3 {
     background: #fff;
+      border-radius: 10px;
 }
 
 .header-3 .icon-btn {
     background: transparent;
     border: 1px solid #e5e7eb;
+  
 }
 
 /* ===== HEADER 4 ===== */
 .header-4 {
     background: linear-gradient(90deg, #0f172a, #020617);
     padding: 22px 36px;
+    border-radius: 10px;
 }
 
 .header-4 nav a {
@@ -136,6 +139,7 @@ body {
 .header-5 {
     background: linear-gradient(90deg, #0f172a, #020617);
     padding: 22px 36px;
+    border-radius: 10px;
 }
 
 .header-5 nav a {
