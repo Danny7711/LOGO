@@ -119,8 +119,8 @@ body {
 }
 
 .header-3 .icon-btn {
-    background: transparent;
-    border: 1px solid #e5e7eb;
+    background: #e5e7eb;
+    border: none;
   
 }
 
@@ -149,7 +149,7 @@ body {
 /* ===== SEARCH DARK ===== */
 .search.dark {
     background: #020617;
-    border: 1px solid #1e293b;
+    border: 1px solid #ffffff;
     min-width: 300px;
 }
 
